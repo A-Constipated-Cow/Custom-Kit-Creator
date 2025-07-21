@@ -1,0 +1,1825 @@
+Version: 1
+IsBigEndian: True
+SupportPaths: False
+HasReferenceNodes: False
+root:
+  - Addition: !l 0
+    CL: !l 0
+    CM: !l 1
+    CS: !l 0
+    CatalogueOrder: !l 1220
+    Id: !l 1000
+    Lock: Boss
+    Main: Shot_Short_00
+    Name: Shot_Short00
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 15
+    ParamValue1: !l 55
+    ParamValue2: !l 75
+    Price: !l 7500
+    Rank: !l 12
+    Special: BigLaser
+    SpecialDownRate: !l 60
+    Sub: Flag
+  - Addition: !l 0
+    CL: !l 0
+    CM: !l 1
+    CS: !l 0
+    CatalogueOrder: !l 1820
+    Id: !l 1001
+    Lock: Boss
+    Main: Shot_Short_01
+    Name: Shot_Short01
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 15
+    ParamValue1: !l 55
+    ParamValue2: !l 75
+    Price: !l 10200
+    Rank: !l 18
+    Special: KingSquid
+    SpecialDownRate: !l 60
+    Sub: MarkingBall
+  - Addition: !l 5
+    CL: !l 0
+    CM: !l 1
+    CS: !l 0
+    CatalogueOrder: !l 2060
+    Id: !l 1002
+    Lock: Boss
+    Main: Shot_Short_02
+    Name: Shot_Short02
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 15
+    ParamValue1: !l 55
+    ParamValue2: !l 75
+    Price: !l 16400
+    Rank: !l 20
+    Special: SuperShot
+    SpecialDownRate: !l 60
+    Sub: Bomb_Throw
+  - Addition: !l 0
+    CL: !l 0
+    CM: !l 0
+    CS: !l 0
+    CatalogueOrder: !l 100
+    Id: !l 1010
+    Lock: None
+    Main: Shot_First_00
+    Name: Shot_First00
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 32
+    ParamValue1: !l 27
+    ParamValue2: !l 75
+    Price: !l 0
+    Rank: !l 1
+    Special: Barrier
+    SpecialDownRate: !l 40
+    Sub: Bomb_Throw
+  - Addition: !l 0
+    CL: !l 3
+    CM: !l 0
+    CS: !l 1
+    CatalogueOrder: !l 210
+    Id: !l 1011
+    Lock: Document1
+    Main: Shot_First_01
+    Name: Shot_First01
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 32
+    ParamValue1: !l 27
+    ParamValue2: !l 75
+    Price: !l 800
+    Rank: !l 2
+    Special: AllMarking
+    SpecialDownRate: !l 60
+    Sub: DevilBall
+  - Addition: !l 0
+    CL: !l 0
+    CM: !l 1
+    CS: !l 0
+    CatalogueOrder: !l 720
+    Id: !l 1020
+    Lock: Boss
+    Main: Shot_Precision_00
+    Name: Shot_Precision00
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 40
+    ParamValue1: !l 27
+    ParamValue2: !l 75
+    Price: !l 3900
+    Rank: !l 7
+    Special: FreeBombs
+    SpecialDownRate: !l 60
+    Sub: Bomb_Hold
+  - Addition: !l 0
+    CL: !l 0
+    CM: !l 1
+    CS: !l 0
+    CatalogueOrder: !l 920
+    Id: !l 1021
+    Lock: Boss
+    Main: Shot_Precision_01
+    Name: Shot_Precision01
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 40
+    ParamValue1: !l 27
+    ParamValue2: !l 75
+    Price: !l 6200
+    Rank: !l 9
+    Special: SuperShot
+    SpecialDownRate: !l 60
+    Sub: Bomb_Handy
+  - Addition: !l 0
+    CL: !l 3
+    CM: !l 0
+    CS: !l 1
+    CatalogueOrder: !l 710
+    Id: !l 1030
+    Lock: Document3
+    Main: Shot_Blaze_00
+    Name: Shot_Blaze00
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 32
+    ParamValue1: !l 20
+    ParamValue2: !l 100
+    Price: !l 4500
+    Rank: !l 7
+    Special: SuperShot
+    SpecialDownRate: !l 60
+    Sub: Bomb_Chase
+  - Addition: !l 0
+    CL: !l 3
+    CM: !l 0
+    CS: !l 1
+    CatalogueOrder: !l 1310
+    Id: !l 1031
+    Lock: Document3
+    Main: Shot_Blaze_01
+    Name: Shot_Blaze01
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 32
+    ParamValue1: !l 20
+    ParamValue2: !l 100
+    Price: !l 9300
+    Rank: !l 13
+    Special: Tornado
+    SpecialDownRate: !l 60
+    Sub: TimerTrap
+  - Addition: !l 5
+    CL: !l 3
+    CM: !l 0
+    CS: !l 1
+    CatalogueOrder: !l 2061
+    Id: !l 1032
+    Lock: Document3
+    Main: Shot_Blaze_02
+    Name: Shot_Blaze02
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 32
+    ParamValue1: !l 20
+    ParamValue2: !l 100
+    Price: !l 20000
+    Rank: !l 20
+    Special: KingSquid
+    SpecialDownRate: !l 40
+    Sub: Bomb_Handy
+  - Addition: !l 0
+    CL: !l 1
+    CM: !l 1
+    CS: !l 0
+    CatalogueOrder: !l 200
+    Id: !l 1040
+    Lock: None
+    Main: Shot_Normal_00
+    Name: Shot_Normal00
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 50
+    ParamValue1: !l 45
+    ParamValue2: !l 55
+    Price: !l 500
+    Rank: !l 2
+    Special: FreeBombs
+    SpecialDownRate: !l 60
+    Sub: Bomb_Handy
+  - Addition: !l 0
+    CL: !l 1
+    CM: !l 0
+    CS: !l 0
+    CatalogueOrder: !l 400
+    Id: !l 1041
+    Lock: None
+    Main: Shot_Normal_01
+    Name: Shot_Normal01
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 50
+    ParamValue1: !l 45
+    ParamValue2: !l 55
+    Price: !l 2000
+    Rank: !l 4
+    Special: SuperShot
+    SpecialDownRate: !l 25
+    Sub: Bomb_Hold
+  - Addition: !l 4
+    CL: !l 1
+    CM: !l 0
+    CS: !l 0
+    CatalogueOrder: !l 2050
+    Id: !l 1042
+    Lock: Boss
+    Main: Shot_Normal_02
+    Name: Shot_Normal02
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 50
+    ParamValue1: !l 45
+    ParamValue2: !l 55
+    Price: !l 4300
+    Rank: !l 20
+    Special: Tornado
+    SpecialDownRate: !l 40
+    Sub: Bomb_Throw
+  - Addition: !l 0
+    CL: !l 1
+    CM: !l 1
+    CS: !l 0
+    CatalogueOrder: !l 320
+    Id: !l 1045
+    Lock: Amiibo3
+    Main: Shot_Normal_H
+    Name: Shot_NormalH
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 50
+    ParamValue1: !l 45
+    ParamValue2: !l 55
+    Price: !l 1200
+    Rank: !l 3
+    Special: FreeBombs
+    SpecialDownRate: !l 60
+    Sub: Bomb_Handy
+  - Addition: !l 1
+    CL: !l 1
+    CM: !l 0
+    CS: !l 0
+    CatalogueOrder: !l 4000
+    Id: !l 1046
+    Lock: NotForSale
+    Main: Shot_Normal_Oct
+    Name: Shot_NormalOct
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 50
+    ParamValue1: !l 45
+    ParamValue2: !l 55
+    Price: !l 0
+    Rank: !l 40
+    Special: SuperShot
+    SpecialDownRate: !l 25
+    Sub: Bomb_Hold
+  - Addition: !l 0
+    CL: !l 1
+    CM: !l 0
+    CS: !l 0
+    CatalogueOrder: !l 500
+    Id: !l 1050
+    Lock: None
+    Main: Shot_Gravity_00
+    Name: Shot_Gravity00
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 50
+    ParamValue1: !l 70
+    ParamValue2: !l 30
+    Price: !l 3000
+    Rank: !l 5
+    Special: BigLaser
+    SpecialDownRate: !l 40
+    Sub: Shield
+  - Addition: !l 0
+    CL: !l 1
+    CM: !l 1
+    CS: !l 0
+    CatalogueOrder: !l 1100
+    Id: !l 1051
+    Lock: None
+    Main: Shot_Gravity_01
+    Name: Shot_Gravity01
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 50
+    ParamValue1: !l 70
+    ParamValue2: !l 30
+    Price: !l 4500
+    Rank: !l 11
+    Special: Tornado
+    SpecialDownRate: !l 60
+    Sub: Bomb_Chase
+  - Addition: !l 0
+    CL: !l 1
+    CM: !l 1
+    CS: !l 0
+    CatalogueOrder: !l 510
+    Id: !l 1060
+    Lock: Boss
+    Main: Shot_QuickMiddle_00
+    Name: Shot_QuickMiddle00
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 50
+    ParamValue1: !l 27
+    ParamValue2: !l 75
+    Price: !l 3500
+    Rank: !l 5
+    Special: AllMarking
+    SpecialDownRate: !l 60
+    Sub: Bomb_Throw
+  - Addition: !l 0
+    CL: !l 1
+    CM: !l 1
+    CS: !l 0
+    CatalogueOrder: !l 820
+    Id: !l 1061
+    Lock: Boss
+    Main: Shot_QuickMiddle_01
+    Name: Shot_QuickMiddle01
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 50
+    ParamValue1: !l 27
+    ParamValue2: !l 75
+    Price: !l 4200
+    Rank: !l 8
+    Special: Tornado
+    SpecialDownRate: !l 60
+    Sub: Sprinkler
+  - Addition: !l 5
+    CL: !l 1
+    CM: !l 0
+    CS: !l 0
+    CatalogueOrder: !l 2062
+    Id: !l 1062
+    Lock: Boss
+    Main: Shot_QuickMiddle_02
+    Name: Shot_QuickMiddle02
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 50
+    ParamValue1: !l 27
+    ParamValue2: !l 75
+    Price: !l 7000
+    Rank: !l 20
+    Special: KingSquid
+    SpecialDownRate: !l 40
+    Sub: MarkingBall
+  - Addition: !l 0
+    CL: !l 2
+    CM: !l 0
+    CS: !l 0
+    CatalogueOrder: !l 1000
+    Id: !l 1070
+    Lock: None
+    Main: Shot_Expert_00
+    Name: Shot_Expert00
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 70
+    ParamValue1: !l 55
+    ParamValue2: !l 40
+    Price: !l 8000
+    Rank: !l 10
+    Special: Tornado
+    SpecialDownRate: !l 60
+    Sub: Bomb_Throw
+  - Addition: !l 0
+    CL: !l 2
+    CM: !l 0
+    CS: !l 0
+    CatalogueOrder: !l 2000
+    Id: !l 1071
+    Lock: None
+    Main: Shot_Expert_01
+    Name: Shot_Expert01
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 70
+    ParamValue1: !l 55
+    ParamValue2: !l 40
+    Price: !l 19800
+    Rank: !l 20
+    Special: SuperShot
+    SpecialDownRate: !l 60
+    Sub: MarkingBall
+  - Addition: !l 4
+    CL: !l 2
+    CM: !l 0
+    CS: !l 0
+    CatalogueOrder: !l 2051
+    Id: !l 1072
+    Lock: Boss
+    Main: Shot_Expert_02
+    Name: Shot_Expert02
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 70
+    ParamValue1: !l 55
+    ParamValue2: !l 40
+    Price: !l 26500
+    Rank: !l 20
+    Special: FreeBombs
+    SpecialDownRate: !l 40
+    Sub: Bomb_Hold
+  - Addition: !l 0
+    CL: !l 2
+    CM: !l 1
+    CS: !l 0
+    CatalogueOrder: !l 1200
+    Id: !l 1080
+    Lock: None
+    Main: Shot_Heavy_00
+    Name: Shot_Heavy00
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 68
+    ParamValue1: !l 70
+    ParamValue2: !l 15
+    Price: !l 7600
+    Rank: !l 12
+    Special: AllMarking
+    SpecialDownRate: !l 60
+    Sub: Sprinkler
+  - Addition: !l 0
+    CL: !l 2
+    CM: !l 0
+    CS: !l 0
+    CatalogueOrder: !l 1410
+    Id: !l 1081
+    Lock: Boss
+    Main: Shot_Heavy_01
+    Name: Shot_Heavy01
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 68
+    ParamValue1: !l 70
+    ParamValue2: !l 15
+    Price: !l 9700
+    Rank: !l 14
+    Special: KingSquid
+    SpecialDownRate: !l 25
+    Sub: Shield
+  - Addition: !l 0
+    CL: !l 2
+    CM: !l 1
+    CS: !l 0
+    CatalogueOrder: !l 1600
+    Id: !l 1090
+    Lock: None
+    Main: Shot_QuickLong_00
+    Name: Shot_QuickLong00
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 68
+    ParamValue1: !l 27
+    ParamValue2: !l 55
+    Price: !l 9800
+    Rank: !l 16
+    Special: AllMarking
+    SpecialDownRate: !l 60
+    Sub: Bomb_Throw
+  - Addition: !l 0
+    CL: !l 2
+    CM: !l 1
+    CS: !l 0
+    CatalogueOrder: !l 1810
+    Id: !l 1091
+    Lock: Boss
+    Main: Shot_QuickLong_01
+    Name: Shot_QuickLong01
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 68
+    ParamValue1: !l 27
+    ParamValue2: !l 55
+    Price: !l 12800
+    Rank: !l 18
+    Special: BigLaser
+    SpecialDownRate: !l 60
+    Sub: Flag
+  - Addition: !l 0
+    CL: !l 3
+    CM: !l 1
+    CS: !l 4
+    CatalogueOrder: !l 800
+    Id: !l 1100
+    Lock: None
+    Main: Shot_Long_00
+    Name: Shot_Long00
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 80
+    ParamValue1: !l 32
+    ParamValue2: !l 40
+    Price: !l 4000
+    Rank: !l 8
+    Special: Tornado
+    SpecialDownRate: !l 60
+    Sub: Shield
+  - Addition: !l 0
+    CL: !l 3
+    CM: !l 1
+    CS: !l 4
+    CatalogueOrder: !l 1500
+    Id: !l 1101
+    Lock: None
+    Main: Shot_Long_01
+    Name: Shot_Long01
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 80
+    ParamValue1: !l 32
+    ParamValue2: !l 40
+    Price: !l 7900
+    Rank: !l 15
+    Special: KingSquid
+    SpecialDownRate: !l 60
+    Sub: Bomb_Handy
+  - Addition: !l 0
+    CL: !l 0
+    CM: !l 0
+    CS: !l 2
+    CatalogueOrder: !l 1130
+    Id: !l 1110
+    Lock: Boss
+    Main: Shot_ExplosionShort_00
+    Name: Shot_ExpShort00
+    Param0: Range
+    Param1: Explosion
+    Param2: Blaze
+    ParamValue0: !l 10
+    ParamValue1: !l 80
+    ParamValue2: !l 30
+    Price: !l 7700
+    Rank: !l 11
+    Special: SuperShot
+    SpecialDownRate: !l 60
+    Sub: TimerTrap
+  - Addition: !l 0
+    CL: !l 0
+    CM: !l 0
+    CS: !l 2
+    CatalogueOrder: !l 1530
+    Id: !l 1111
+    Lock: Boss
+    Main: Shot_ExplosionShort_01
+    Name: Shot_ExpShort01
+    Param0: Range
+    Param1: Explosion
+    Param2: Blaze
+    ParamValue0: !l 10
+    ParamValue1: !l 80
+    ParamValue2: !l 30
+    Price: !l 8700
+    Rank: !l 15
+    Special: FreeBombs
+    SpecialDownRate: !l 25
+    Sub: Bomb_Throw
+  - Addition: !l 0
+    CL: !l 0
+    CM: !l 0
+    CS: !l 2
+    CatalogueOrder: !l 900
+    Id: !l 1120
+    Lock: None
+    Main: Shot_ExplosionMiddle_00
+    Name: Shot_ExpMiddle00
+    Param0: Range
+    Param1: Explosion
+    Param2: Blaze
+    ParamValue0: !l 25
+    ParamValue1: !l 70
+    ParamValue2: !l 20
+    Price: !l 3500
+    Rank: !l 9
+    Special: BigLaser
+    SpecialDownRate: !l 60
+    Sub: DevilBall
+  - Addition: !l 0
+    CL: !l 0
+    CM: !l 0
+    CS: !l 2
+    CatalogueOrder: !l 1700
+    Id: !l 1121
+    Lock: None
+    Main: Shot_ExplosionMiddle_01
+    Name: Shot_ExpMiddle01
+    Param0: Range
+    Param1: Explosion
+    Param2: Blaze
+    ParamValue0: !l 25
+    ParamValue1: !l 70
+    ParamValue2: !l 20
+    Price: !l 10600
+    Rank: !l 17
+    Special: Barrier
+    SpecialDownRate: !l 40
+    Sub: MarkingBall
+  - Addition: !l 0
+    CL: !l 1
+    CM: !l 1
+    CS: !l 1
+    CatalogueOrder: !l 1420
+    Id: !l 1130
+    Lock: Boss
+    Main: Shot_ExplosionLong_00
+    Name: Shot_ExpLong00
+    Param0: Range
+    Param1: Explosion
+    Param2: Blaze
+    ParamValue0: !l 35
+    ParamValue1: !l 60
+    ParamValue2: !l 10
+    Price: !l 8000
+    Rank: !l 14
+    Special: Tornado
+    SpecialDownRate: !l 60
+    Sub: Shield
+  - Addition: !l 0
+    CL: !l 1
+    CM: !l 1
+    CS: !l 1
+    CatalogueOrder: !l 1730
+    Id: !l 1131
+    Lock: Boss
+    Main: Shot_ExplosionLong_01
+    Name: Shot_ExpLong01
+    Param0: Range
+    Param1: Explosion
+    Param2: Blaze
+    ParamValue0: !l 35
+    ParamValue1: !l 60
+    ParamValue2: !l 10
+    Price: !l 10800
+    Rank: !l 17
+    Special: KingSquid
+    SpecialDownRate: !l 60
+    Sub: Bomb_Throw
+  - Addition: !l 5
+    CL: !l 1
+    CM: !l 1
+    CS: !l 1
+    CatalogueOrder: !l 2063
+    Id: !l 1132
+    Lock: Boss
+    Main: Shot_ExplosionLong_02
+    Name: Shot_ExpLong02
+    Param0: Range
+    Param1: Explosion
+    Param2: Blaze
+    ParamValue0: !l 35
+    ParamValue1: !l 60
+    ParamValue2: !l 10
+    Price: !l 14000
+    Rank: !l 20
+    Special: BigLaser
+    SpecialDownRate: !l 60
+    Sub: Bomb_Handy
+  - Addition: !l 0
+    CL: !l 1
+    CM: !l 1
+    CS: !l 1
+    CatalogueOrder: !l 1400
+    Id: !l 1140
+    Lock: None
+    Main: Shot_ExplosionLight_00
+    Name: Shot_ExpLight00
+    Param0: Range
+    Param1: Explosion
+    Param2: Blaze
+    ParamValue0: !l 45
+    ParamValue1: !l 35
+    ParamValue2: !l 40
+    Price: !l 9600
+    Rank: !l 14
+    Special: Barrier
+    SpecialDownRate: !l 60
+    Sub: TimerTrap
+  - Addition: !l 0
+    CL: !l 1
+    CM: !l 1
+    CS: !l 1
+    CatalogueOrder: !l 1900
+    Id: !l 1141
+    Lock: None
+    Main: Shot_ExplosionLight_01
+    Name: Shot_ExpLight01
+    Param0: Range
+    Param1: Explosion
+    Param2: Blaze
+    ParamValue0: !l 45
+    ParamValue1: !l 35
+    ParamValue2: !l 40
+    Price: !l 14800
+    Rank: !l 19
+    Special: FreeBombs
+    SpecialDownRate: !l 60
+    Sub: Bomb_Hold
+  - Addition: !l 0
+    CL: !l 3
+    CM: !l 1
+    CS: !l 1
+    CatalogueOrder: !l 1610
+    Id: !l 1150
+    Lock: Boss
+    Main: Shot_ExplosionLightLong_00
+    Name: Shot_ExpLightLong00
+    Param0: Range
+    Param1: Explosion
+    Param2: Blaze
+    ParamValue0: !l 65
+    ParamValue1: !l 35
+    ParamValue2: !l 30
+    Price: !l 11200
+    Rank: !l 16
+    Special: SuperShot
+    SpecialDownRate: !l 60
+    Sub: Bomb_Chase
+  - Addition: !l 0
+    CL: !l 3
+    CM: !l 1
+    CS: !l 1
+    CatalogueOrder: !l 2030
+    Id: !l 1151
+    Lock: Boss
+    Main: Shot_ExplosionLightLong_01
+    Name: Shot_ExpLightLong01
+    Param0: Range
+    Param1: Explosion
+    Param2: Blaze
+    ParamValue0: !l 65
+    ParamValue1: !l 35
+    ParamValue2: !l 30
+    Price: !l 18200
+    Rank: !l 20
+    Special: BigLaser
+    SpecialDownRate: !l 60
+    Sub: DevilBall
+  - Addition: !l 0
+    CL: !l 1
+    CM: !l 1
+    CS: !l 0
+    CatalogueOrder: !l 910
+    Id: !l 1160
+    Lock: Boss
+    Main: Shot_TripleQuick_00
+    Name: Shot_TripleQuick00
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 60
+    ParamValue1: !l 40
+    ParamValue2: !l 65
+    Price: !l 5800
+    Rank: !l 9
+    Special: BigLaser
+    SpecialDownRate: !l 60
+    Sub: DevilBall
+  - Addition: !l 0
+    CL: !l 1
+    CM: !l 1
+    CS: !l 0
+    CatalogueOrder: !l 1320
+    Id: !l 1161
+    Lock: Boss
+    Main: Shot_TripleQuick_01
+    Name: Shot_TripleQuick01
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 60
+    ParamValue1: !l 40
+    ParamValue2: !l 65
+    Price: !l 6600
+    Rank: !l 13
+    Special: KingSquid
+    SpecialDownRate: !l 40
+    Sub: Bomb_Handy
+  - Addition: !l 0
+    CL: !l 3
+    CM: !l 1
+    CS: !l 0
+    CatalogueOrder: !l 1020
+    Id: !l 1170
+    Lock: Boss
+    Main: Shot_TripleMiddle_00
+    Name: Shot_TripleMiddle00
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 68
+    ParamValue1: !l 60
+    ParamValue2: !l 30
+    Price: !l 7500
+    Rank: !l 10
+    Special: AllMarking
+    SpecialDownRate: !l 60
+    Sub: Bomb_Hold
+  - Addition: !l 0
+    CL: !l 3
+    CM: !l 1
+    CS: !l 0
+    CatalogueOrder: !l 1430
+    Id: !l 1171
+    Lock: Boss
+    Main: Shot_TripleMiddle_01
+    Name: Shot_TripleMiddle01
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 68
+    ParamValue1: !l 60
+    ParamValue2: !l 30
+    Price: !l 8300
+    Rank: !l 14
+    Special: SuperShot
+    SpecialDownRate: !l 60
+    Sub: MarkingBall
+  - Addition: !l 5
+    CL: !l 3
+    CM: !l 1
+    CS: !l 0
+    CatalogueOrder: !l 2064
+    Id: !l 1172
+    Lock: Boss
+    Main: Shot_TripleMiddle_02
+    Name: Shot_TripleMiddle02
+    Param0: Range
+    Param1: Power
+    Param2: Blaze
+    ParamValue0: !l 68
+    ParamValue1: !l 60
+    ParamValue2: !l 30
+    Price: !l 12400
+    Rank: !l 20
+    Special: Barrier
+    SpecialDownRate: !l 60
+    Sub: Shield
+  - Addition: !l 0
+    CL: !l 0
+    CM: !l 1
+    CS: !l 1
+    CatalogueOrder: !l 1010
+    Id: !l 2000
+    Lock: Boss
+    Main: Roller_Compact_00
+    Name: Roller_Compact00
+    Param0: Range
+    Param1: PaintSpeed
+    Param2: Weight
+    ParamValue0: !l 20
+    ParamValue1: !l 65
+    ParamValue2: !l 60
+    Price: !l 6600
+    Rank: !l 10
+    Special: SuperShot
+    SpecialDownRate: !l 40
+    Sub: Bomb_Handy
+  - Addition: !l 0
+    CL: !l 0
+    CM: !l 1
+    CS: !l 1
+    CatalogueOrder: !l 1330
+    Id: !l 2001
+    Lock: Boss
+    Main: Roller_Compact_01
+    Name: Roller_Compact01
+    Param0: Range
+    Param1: PaintSpeed
+    Param2: Weight
+    ParamValue0: !l 20
+    ParamValue1: !l 65
+    ParamValue2: !l 60
+    Price: !l 7600
+    Rank: !l 13
+    Special: FreeBombs
+    SpecialDownRate: !l 60
+    Sub: Bomb_Chase
+  - Addition: !l 0
+    CL: !l 0
+    CM: !l 1
+    CS: !l 1
+    CatalogueOrder: !l 300
+    Id: !l 2010
+    Lock: None
+    Main: Roller_Normal_00
+    Name: Roller_Normal00
+    Param0: Range
+    Param1: PaintSpeed
+    Param2: Weight
+    ParamValue0: !l 55
+    ParamValue1: !l 50
+    ParamValue2: !l 40
+    Price: !l 1000
+    Rank: !l 3
+    Special: BigLaser
+    SpecialDownRate: !l 60
+    Sub: Bomb_Hold
+  - Addition: !l 0
+    CL: !l 0
+    CM: !l 1
+    CS: !l 1
+    CatalogueOrder: !l 700
+    Id: !l 2011
+    Lock: None
+    Main: Roller_Normal_01
+    Name: Roller_Normal01
+    Param0: Range
+    Param1: PaintSpeed
+    Param2: Weight
+    ParamValue0: !l 55
+    ParamValue1: !l 50
+    ParamValue2: !l 40
+    Price: !l 3000
+    Rank: !l 7
+    Special: KingSquid
+    SpecialDownRate: !l 40
+    Sub: Flag
+  - Addition: !l 5
+    CL: !l 0
+    CM: !l 1
+    CS: !l 1
+    CatalogueOrder: !l 2065
+    Id: !l 2012
+    Lock: Boss
+    Main: Roller_Normal_02
+    Name: Roller_Normal02
+    Param0: Range
+    Param1: PaintSpeed
+    Param2: Weight
+    ParamValue0: !l 55
+    ParamValue1: !l 50
+    ParamValue2: !l 40
+    Price: !l 5000
+    Rank: !l 20
+    Special: SuperShot
+    SpecialDownRate: !l 60
+    Sub: Shield
+  - Addition: !l 0
+    CL: !l 0
+    CM: !l 1
+    CS: !l 1
+    CatalogueOrder: !l 330
+    Id: !l 2015
+    Lock: Amiibo2
+    Main: Roller_Normal_H
+    Name: Roller_NormalH
+    Param0: Range
+    Param1: PaintSpeed
+    Param2: Weight
+    ParamValue0: !l 55
+    ParamValue1: !l 50
+    ParamValue2: !l 40
+    Price: !l 1200
+    Rank: !l 3
+    Special: BigLaser
+    SpecialDownRate: !l 60
+    Sub: Bomb_Hold
+  - Addition: !l 0
+    CL: !l 2
+    CM: !l 0
+    CS: !l 1
+    CatalogueOrder: !l 1510
+    Id: !l 2020
+    Lock: Document5
+    Main: Roller_Heavy_00
+    Name: Roller_Heavy00
+    Param0: Range
+    Param1: PaintSpeed
+    Param2: Weight
+    ParamValue0: !l 72
+    ParamValue1: !l 30
+    ParamValue2: !l 18
+    Price: !l 10000
+    Rank: !l 15
+    Special: AllMarking
+    SpecialDownRate: !l 25
+    Sub: Sprinkler
+  - Addition: !l 0
+    CL: !l 2
+    CM: !l 0
+    CS: !l 1
+    CatalogueOrder: !l 2010
+    Id: !l 2021
+    Lock: Document5
+    Main: Roller_Heavy_01
+    Name: Roller_Heavy01
+    Param0: Range
+    Param1: PaintSpeed
+    Param2: Weight
+    ParamValue0: !l 72
+    ParamValue1: !l 30
+    ParamValue2: !l 18
+    Price: !l 25000
+    Rank: !l 20
+    Special: Tornado
+    SpecialDownRate: !l 25
+    Sub: Bomb_Throw
+  - Addition: !l 4
+    CL: !l 2
+    CM: !l 0
+    CS: !l 1
+    CatalogueOrder: !l 2052
+    Id: !l 2022
+    Lock: Document5
+    Main: Roller_Heavy_02
+    Name: Roller_Heavy02
+    Param0: Range
+    Param1: PaintSpeed
+    Param2: Weight
+    ParamValue0: !l 72
+    ParamValue1: !l 30
+    ParamValue2: !l 18
+    Price: !l 36800
+    Rank: !l 20
+    Special: BigLaser
+    SpecialDownRate: !l 40
+    Sub: Bomb_Chase
+  - Addition: !l 0
+    CL: !l 3
+    CM: !l 0
+    CS: !l 0
+    CatalogueOrder: !l 810
+    Id: !l 2030
+    Lock: Boss
+    Main: Roller_BrushMini_00
+    Name: Roller_BrushMini00
+    Param0: Range
+    Param1: PaintSpeed
+    Param2: Weight
+    ParamValue0: !l 10
+    ParamValue1: !l 100
+    ParamValue2: !l 100
+    Price: !l 4800
+    Rank: !l 8
+    Special: Tornado
+    SpecialDownRate: !l 60
+    Sub: Sprinkler
+  - Addition: !l 0
+    CL: !l 3
+    CM: !l 0
+    CS: !l 0
+    CatalogueOrder: !l 1120
+    Id: !l 2031
+    Lock: Boss
+    Main: Roller_BrushMini_01
+    Name: Roller_BrushMini01
+    Param0: Range
+    Param1: PaintSpeed
+    Param2: Weight
+    ParamValue0: !l 10
+    ParamValue1: !l 100
+    ParamValue2: !l 100
+    Price: !l 5900
+    Rank: !l 11
+    Special: Barrier
+    SpecialDownRate: !l 60
+    Sub: TimerTrap
+  - Addition: !l 4
+    CL: !l 3
+    CM: !l 0
+    CS: !l 0
+    CatalogueOrder: !l 2053
+    Id: !l 2032
+    Lock: Boss
+    Main: Roller_BrushMini_02
+    Name: Roller_BrushMini02
+    Param0: Range
+    Param1: PaintSpeed
+    Param2: Weight
+    ParamValue0: !l 10
+    ParamValue1: !l 100
+    ParamValue2: !l 100
+    Price: !l 8200
+    Rank: !l 20
+    Special: KingSquid
+    SpecialDownRate: !l 60
+    Sub: Bomb_Throw
+  - Addition: !l 0
+    CL: !l 0
+    CM: !l 1
+    CS: !l 1
+    CatalogueOrder: !l 1210
+    Id: !l 2040
+    Lock: Boss
+    Main: Roller_BrushNormal_00
+    Name: Roller_BrushNormal00
+    Param0: Range
+    Param1: PaintSpeed
+    Param2: Weight
+    ParamValue0: !l 25
+    ParamValue1: !l 80
+    ParamValue2: !l 80
+    Price: !l 8500
+    Rank: !l 12
+    Special: KingSquid
+    SpecialDownRate: !l 60
+    Sub: Flag
+  - Addition: !l 0
+    CL: !l 0
+    CM: !l 1
+    CS: !l 1
+    CatalogueOrder: !l 1620
+    Id: !l 2041
+    Lock: Boss
+    Main: Roller_BrushNormal_01
+    Name: Roller_BrushNormal01
+    Param0: Range
+    Param1: PaintSpeed
+    Param2: Weight
+    ParamValue0: !l 25
+    ParamValue1: !l 80
+    ParamValue2: !l 80
+    Price: !l 9500
+    Rank: !l 16
+    Special: SuperShot
+    SpecialDownRate: !l 60
+    Sub: Bomb_Throw
+  - Addition: !l 1
+    CL: !l 1
+    CM: !l 1
+    CS: !l 2
+    CatalogueOrder: !l 520
+    Id: !l 3000
+    Lock: Boss
+    Main: BigBall_Strong_00
+    Name: BigBall_Strong00
+    Param0: Range
+    Param1: Power
+    Param2: Weight
+    ParamValue0: !l 52
+    ParamValue1: !l 90
+    ParamValue2: !l 54
+    Price: !l 5600
+    Rank: !l 5
+    Special: Tornado
+    SpecialDownRate: !l 60
+    Sub: Bomb_Handy
+  - Addition: !l 1
+    CL: !l 1
+    CM: !l 1
+    CS: !l 2
+    CatalogueOrder: !l 1030
+    Id: !l 3001
+    Lock: Boss
+    Main: BigBall_Strong_01
+    Name: BigBall_Strong01
+    Param0: Range
+    Param1: Power
+    Param2: Weight
+    ParamValue0: !l 52
+    ParamValue1: !l 90
+    ParamValue2: !l 54
+    Price: !l 8300
+    Rank: !l 10
+    Special: KingSquid
+    SpecialDownRate: !l 60
+    Sub: Shield
+  - Addition: !l 4
+    CL: !l 1
+    CM: !l 1
+    CS: !l 2
+    CatalogueOrder: !l 2054
+    Id: !l 3002
+    Lock: Boss
+    Main: BigBall_Strong_02
+    Name: BigBall_Strong02
+    Param0: Range
+    Param1: Power
+    Param2: Weight
+    ParamValue0: !l 52
+    ParamValue1: !l 90
+    ParamValue2: !l 54
+    Price: !l 14600
+    Rank: !l 20
+    Special: SuperShot
+    SpecialDownRate: !l 60
+    Sub: Bomb_Throw
+  - Addition: !l 1
+    CL: !l 1
+    CM: !l 1
+    CS: !l 2
+    CatalogueOrder: !l 930
+    Id: !l 3010
+    Lock: Boss
+    Main: BigBall_Diffusion_00
+    Name: BigBall_Diffusion00
+    Param0: Range
+    Param1: Power
+    Param2: Weight
+    ParamValue0: !l 33
+    ParamValue1: !l 80
+    ParamValue2: !l 70
+    Price: !l 7500
+    Rank: !l 9
+    Special: Barrier
+    SpecialDownRate: !l 40
+    Sub: DevilBall
+  - Addition: !l 1
+    CL: !l 1
+    CM: !l 1
+    CS: !l 2
+    CatalogueOrder: !l 1540
+    Id: !l 3011
+    Lock: Boss
+    Main: BigBall_Diffusion_01
+    Name: BigBall_Diffusion01
+    Param0: Range
+    Param1: Power
+    Param2: Weight
+    ParamValue0: !l 33
+    ParamValue1: !l 80
+    ParamValue2: !l 70
+    Price: !l 9900
+    Rank: !l 15
+    Special: AllMarking
+    SpecialDownRate: !l 60
+    Sub: Bomb_Chase
+  - Addition: !l 2
+    CL: !l 3
+    CM: !l 2
+    CS: !l 0
+    CatalogueOrder: !l 1230
+    Id: !l 3020
+    Lock: Boss
+    Main: BigBall_Launcher_00
+    Name: BigBall_Launcher00
+    Param0: Range
+    Param1: Power
+    Param2: Weight
+    ParamValue0: !l 55
+    ParamValue1: !l 95
+    ParamValue2: !l 45
+    Price: !l 13500
+    Rank: !l 12
+    Special: FreeBombs
+    SpecialDownRate: !l 60
+    Sub: Bomb_Throw
+  - Addition: !l 2
+    CL: !l 3
+    CM: !l 2
+    CS: !l 0
+    CatalogueOrder: !l 1830
+    Id: !l 3021
+    Lock: Boss
+    Main: BigBall_Launcher_01
+    Name: BigBall_Launcher01
+    Param0: Range
+    Param1: Power
+    Param2: Weight
+    ParamValue0: !l 55
+    ParamValue1: !l 95
+    ParamValue2: !l 45
+    Price: !l 28500
+    Rank: !l 18
+    Special: SuperShot
+    SpecialDownRate: !l 60
+    Sub: MarkingBall
+  - Addition: !l 0
+    CL: !l 3
+    CM: !l 1
+    CS: !l 2
+    CatalogueOrder: !l 600
+    Id: !l 4000
+    Lock: None
+    Main: Charge_Quick_00
+    Name: Charge_Quick00
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 65
+    ParamValue1: !l 70
+    ParamValue2: !l 60
+    Price: !l 5000
+    Rank: !l 6
+    Special: Barrier
+    SpecialDownRate: !l 60
+    Sub: MarkingBall
+  - Addition: !l 0
+    CL: !l 3
+    CM: !l 1
+    CS: !l 2
+    CatalogueOrder: !l 1110
+    Id: !l 4001
+    Lock: Document4
+    Main: Charge_Quick_01
+    Name: Charge_Quick01
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 65
+    ParamValue1: !l 70
+    ParamValue2: !l 60
+    Price: !l 4500
+    Rank: !l 11
+    Special: SuperShot
+    SpecialDownRate: !l 60
+    Sub: TimerTrap
+  - Addition: !l 4
+    CL: !l 3
+    CM: !l 1
+    CS: !l 2
+    CatalogueOrder: !l 2055
+    Id: !l 4002
+    Lock: Boss
+    Main: Charge_Quick_02
+    Name: Charge_Quick02
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 65
+    ParamValue1: !l 70
+    ParamValue2: !l 60
+    Price: !l 7200
+    Rank: !l 20
+    Special: KingSquid
+    SpecialDownRate: !l 40
+    Sub: Bomb_Hold
+  - Addition: !l 0
+    CL: !l 2
+    CM: !l 2
+    CS: !l 0
+    CatalogueOrder: !l 310
+    Id: !l 4010
+    Lock: None
+    Main: Charge_Normal_00
+    Name: Charge_Normal00
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 86
+    ParamValue1: !l 50
+    ParamValue2: !l 40
+    Price: !l 1000
+    Rank: !l 3
+    Special: FreeBombs
+    SpecialDownRate: !l 25
+    Sub: Bomb_Throw
+  - Addition: !l 0
+    CL: !l 2
+    CM: !l 2
+    CS: !l 0
+    CatalogueOrder: !l 410
+    Id: !l 4011
+    Lock: Document2
+    Main: Charge_Normal_01
+    Name: Charge_Normal01
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 86
+    ParamValue1: !l 50
+    ParamValue2: !l 40
+    Price: !l 2500
+    Rank: !l 4
+    Special: BigLaser
+    SpecialDownRate: !l 40
+    Sub: Sprinkler
+  - Addition: !l 5
+    CL: !l 2
+    CM: !l 2
+    CS: !l 0
+    CatalogueOrder: !l 2066
+    Id: !l 4012
+    Lock: Boss
+    Main: Charge_Normal_02
+    Name: Charge_Normal02
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 86
+    ParamValue1: !l 50
+    ParamValue2: !l 40
+    Price: !l 4700
+    Rank: !l 20
+    Special: AllMarking
+    SpecialDownRate: !l 40
+    Sub: Shield
+  - Addition: !l 0
+    CL: !l 2
+    CM: !l 2
+    CS: !l 0
+    CatalogueOrder: !l 340
+    Id: !l 4015
+    Lock: Amiibo1
+    Main: Charge_Normal_H
+    Name: Charge_NormalH
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 86
+    ParamValue1: !l 50
+    ParamValue2: !l 40
+    Price: !l 1200
+    Rank: !l 3
+    Special: FreeBombs
+    SpecialDownRate: !l 25
+    Sub: Bomb_Throw
+  - Addition: !l 0
+    CL: !l 2
+    CM: !l 2
+    CS: !l 0
+    CatalogueOrder: !l 1300
+    Id: !l 4020
+    Lock: None
+    Main: Charge_NormalScope_00
+    Name: Charge_NormalScp00
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 89
+    ParamValue1: !l 50
+    ParamValue2: !l 35
+    Price: !l 4200
+    Rank: !l 13
+    Special: FreeBombs
+    SpecialDownRate: !l 25
+    Sub: Bomb_Throw
+  - Addition: !l 0
+    CL: !l 2
+    CM: !l 2
+    CS: !l 0
+    CatalogueOrder: !l 1710
+    Id: !l 4021
+    Lock: Document2
+    Main: Charge_NormalScope_01
+    Name: Charge_NormalScp01
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 89
+    ParamValue1: !l 50
+    ParamValue2: !l 35
+    Price: !l 7800
+    Rank: !l 17
+    Special: BigLaser
+    SpecialDownRate: !l 40
+    Sub: Sprinkler
+  - Addition: !l 5
+    CL: !l 2
+    CM: !l 2
+    CS: !l 0
+    CatalogueOrder: !l 2067
+    Id: !l 4022
+    Lock: Boss
+    Main: Charge_NormalScope_02
+    Name: Charge_NormalScp02
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 89
+    ParamValue1: !l 50
+    ParamValue2: !l 35
+    Price: !l 11500
+    Rank: !l 20
+    Special: AllMarking
+    SpecialDownRate: !l 40
+    Sub: Shield
+  - Addition: !l 0
+    CL: !l 2
+    CM: !l 2
+    CS: !l 1
+    CatalogueOrder: !l 1800
+    Id: !l 4030
+    Lock: None
+    Main: Charge_Long_00
+    Name: Charge_Long00
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 97
+    ParamValue1: !l 23
+    ParamValue2: !l 13
+    Price: !l 12500
+    Rank: !l 18
+    Special: AllMarking
+    SpecialDownRate: !l 40
+    Sub: Bomb_Handy
+  - Addition: !l 0
+    CL: !l 2
+    CM: !l 2
+    CS: !l 1
+    CatalogueOrder: !l 1910
+    Id: !l 4031
+    Lock: Boss
+    Main: Charge_Long_01
+    Name: Charge_Long01
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 97
+    ParamValue1: !l 23
+    ParamValue2: !l 13
+    Price: !l 14200
+    Rank: !l 19
+    Special: KingSquid
+    SpecialDownRate: !l 40
+    Sub: Flag
+  - Addition: !l 0
+    CL: !l 2
+    CM: !l 2
+    CS: !l 1
+    CatalogueOrder: !l 1920
+    Id: !l 4040
+    Lock: Boss
+    Main: Charge_LongScope_00
+    Name: Charge_LongScp00
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 100
+    ParamValue1: !l 23
+    ParamValue2: !l 8
+    Price: !l 13400
+    Rank: !l 19
+    Special: AllMarking
+    SpecialDownRate: !l 40
+    Sub: Bomb_Handy
+  - Addition: !l 0
+    CL: !l 2
+    CM: !l 2
+    CS: !l 1
+    CatalogueOrder: !l 2020
+    Id: !l 4041
+    Lock: Boss
+    Main: Charge_LongScope_01
+    Name: Charge_LongScp01
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 100
+    ParamValue1: !l 23
+    ParamValue2: !l 8
+    Price: !l 22600
+    Rank: !l 20
+    Special: KingSquid
+    SpecialDownRate: !l 40
+    Sub: Flag
+  - Addition: !l 0
+    CL: !l 3
+    CM: !l 1
+    CS: !l 2
+    CatalogueOrder: !l 1520
+    Id: !l 4050
+    Lock: Boss
+    Main: Charge_Light_00
+    Name: Charge_Light00
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 72
+    ParamValue1: !l 90
+    ParamValue2: !l 80
+    Price: !l 6200
+    Rank: !l 15
+    Special: BigLaser
+    SpecialDownRate: !l 60
+    Sub: Shield
+  - Addition: !l 0
+    CL: !l 3
+    CM: !l 1
+    CS: !l 2
+    CatalogueOrder: !l 1720
+    Id: !l 4051
+    Lock: Boss
+    Main: Charge_Light_01
+    Name: Charge_Light01
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 72
+    ParamValue1: !l 90
+    ParamValue2: !l 80
+    Price: !l 8300
+    Rank: !l 17
+    Special: AllMarking
+    SpecialDownRate: !l 60
+    Sub: DevilBall
+  - Addition: !l 4
+    CL: !l 3
+    CM: !l 1
+    CS: !l 2
+    CatalogueOrder: !l 2056
+    Id: !l 4052
+    Lock: Boss
+    Main: Charge_Light_02
+    Name: Charge_Light02
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 72
+    ParamValue1: !l 90
+    ParamValue2: !l 80
+    Price: !l 9100
+    Rank: !l 20
+    Special: Tornado
+    SpecialDownRate: !l 25
+    Sub: Bomb_Handy
+  - Addition: !l 1
+    CL: !l 1
+    CM: !l 1
+    CS: !l 3
+    CatalogueOrder: !l 830
+    Id: !l 5000
+    Lock: Boss
+    Main: Gatling_Quick_00
+    Name: Gatling_Quick00
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 58
+    ParamValue1: !l 80
+    ParamValue2: !l 90
+    Price: !l 7200
+    Rank: !l 8
+    Special: SuperShot
+    SpecialDownRate: !l 60
+    Sub: Bomb_Hold
+  - Addition: !l 1
+    CL: !l 1
+    CM: !l 1
+    CS: !l 3
+    CatalogueOrder: !l 1340
+    Id: !l 5001
+    Lock: Boss
+    Main: Gatling_Quick_01
+    Name: Gatling_Quick01
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 58
+    ParamValue1: !l 80
+    ParamValue2: !l 90
+    Price: !l 9400
+    Rank: !l 13
+    Special: Barrier
+    SpecialDownRate: !l 25
+    Sub: DevilBall
+  - Addition: !l 4
+    CL: !l 1
+    CM: !l 1
+    CS: !l 3
+    CatalogueOrder: !l 2057
+    Id: !l 5002
+    Lock: Boss
+    Main: Gatling_Quick_02
+    Name: Gatling_Quick02
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 58
+    ParamValue1: !l 80
+    ParamValue2: !l 90
+    Price: !l 13400
+    Rank: !l 20
+    Special: FreeBombs
+    SpecialDownRate: !l 60
+    Sub: Bomb_Handy
+  - Addition: !l 1
+    CL: !l 2
+    CM: !l 0
+    CS: !l 2
+    CatalogueOrder: !l 610
+    Id: !l 5010
+    Lock: Boss
+    Main: Gatling_Standard_00
+    Name: Gatling_Standard00
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 78
+    ParamValue1: !l 40
+    ParamValue2: !l 50
+    Price: !l 6800
+    Rank: !l 6
+    Special: Tornado
+    SpecialDownRate: !l 60
+    Sub: Shield
+  - Addition: !l 1
+    CL: !l 2
+    CM: !l 0
+    CS: !l 2
+    CatalogueOrder: !l 940
+    Id: !l 5011
+    Lock: Boss
+    Main: Gatling_Standard_01
+    Name: Gatling_Standard01
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 78
+    ParamValue1: !l 40
+    ParamValue2: !l 50
+    Price: !l 9200
+    Rank: !l 9
+    Special: KingSquid
+    SpecialDownRate: !l 40
+    Sub: MarkingBall
+  - Addition: !l 5
+    CL: !l 2
+    CM: !l 0
+    CS: !l 2
+    CatalogueOrder: !l 2068
+    Id: !l 5012
+    Lock: Boss
+    Main: Gatling_Standard_02
+    Name: Gatling_Standard02
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 78
+    ParamValue1: !l 40
+    ParamValue2: !l 50
+    Price: !l 17900
+    Rank: !l 20
+    Special: BigLaser
+    SpecialDownRate: !l 60
+    Sub: Sprinkler
+  - Addition: !l 1
+    CL: !l 2
+    CM: !l 0
+    CS: !l 2
+    CatalogueOrder: !l 1130
+    Id: !l 5020
+    Lock: Boss
+    Main: Gatling_Hyper_00
+    Name: Gatling_Hyper00
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 87
+    ParamValue1: !l 10
+    ParamValue2: !l 18
+    Price: !l 11600
+    Rank: !l 11
+    Special: AllMarking
+    SpecialDownRate: !l 60
+    Sub: Bomb_Throw
+  - Addition: !l 1
+    CL: !l 2
+    CM: !l 0
+    CS: !l 2
+    CatalogueOrder: !l 2040
+    Id: !l 5021
+    Lock: Boss
+    Main: Gatling_Hyper_01
+    Name: Gatling_Hyper01
+    Param0: Range
+    Param1: Charge
+    Param2: Mobility
+    ParamValue0: !l 87
+    ParamValue1: !l 10
+    ParamValue2: !l 18
+    Price: !l 29900
+    Rank: !l 20
+    Special: Barrier
+    SpecialDownRate: !l 60
+    Sub: Sprinkler

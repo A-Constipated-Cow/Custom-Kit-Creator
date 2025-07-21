@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Template.txt</file>
+        <file>New.txt</file>
+    </qresource>
+    <qresource prefix="/new/prefix1">
+        <file>Template.txt</file>
+    </qresource>
+</RCC>

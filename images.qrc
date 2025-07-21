@@ -1,0 +1,116 @@
+<RCC>
+    <qresource prefix="/new/images">
+        <file>timg/Seeker.png</file>
+        <file>timg/Burst Bomb.png</file>
+        <file>timg/Suction Bomb.png</file>
+        <file>timg/Splat Bomb.png</file>
+        <file>timg/Disruptor.png</file>
+        <file>timg/Squid Beakon.png</file>
+        <file>timg/Point Sensor.png</file>
+        <file>timg/Splash Wall.png</file>
+        <file>timg/Sprinkler.png</file>
+        <file>timg/Ink Mine.png</file>
+        <file>timg/Echolocator.png</file>
+        <file>timg/Bubbler.png</file>
+        <file>timg/Killer Wail.png</file>
+        <file>timg/Seeker Rush.png</file>
+        <file>timg/Burst Bomb Rush.png</file>
+        <file>timg/Suction Bomb Rush.png</file>
+        <file>timg/Splat Bomb Rush.png</file>
+        <file>timg/Kraken.png</file>
+        <file>timg/Rainmaker.png</file>
+        <file>timg/Inkzooka.png</file>
+        <file>timg/Inkstrike.png</file>
+        <file>timg/Wst_BigBall_Diffusion00^q.png</file>
+        <file>timg/Wst_BigBall_Diffusion01^q.png</file>
+        <file>timg/Wst_BigBall_Launcher00^q.png</file>
+        <file>timg/Wst_BigBall_Launcher01^q.png</file>
+        <file>timg/Wst_BigBall_Strong00^q.png</file>
+        <file>timg/Wst_BigBall_Strong01^q.png</file>
+        <file>timg/Wst_BigBall_Strong02^q.png</file>
+        <file>timg/Wst_Charge_Light00^q.png</file>
+        <file>timg/Wst_Charge_Light01^q.png</file>
+        <file>timg/Wst_Charge_Light02^q.png</file>
+        <file>timg/Wst_Charge_Long00^q.png</file>
+        <file>timg/Wst_Charge_Long01^q.png</file>
+        <file>timg/Wst_Charge_LongScp00^q.png</file>
+        <file>timg/Wst_Charge_LongScp01^q.png</file>
+        <file>timg/Wst_Charge_Normal00^q.png</file>
+        <file>timg/Wst_Charge_Normal01^q.png</file>
+        <file>timg/Wst_Charge_Normal02^q.png</file>
+        <file>timg/Wst_Charge_NormalH^q.png</file>
+        <file>timg/Wst_Charge_NormalScp00^q.png</file>
+        <file>timg/Wst_Charge_NormalScp01^q.png</file>
+        <file>timg/Wst_Charge_NormalScp02^q.png</file>
+        <file>timg/Wst_Charge_Quick00^q.png</file>
+        <file>timg/Wst_Charge_Quick01^q.png</file>
+        <file>timg/Wst_Charge_Quick02^q.png</file>
+        <file>timg/Wst_Gatling_Hyper00^q.png</file>
+        <file>timg/Wst_Gatling_Hyper01^q.png</file>
+        <file>timg/Wst_Gatling_Quick00^q.png</file>
+        <file>timg/Wst_Gatling_Quick01^q.png</file>
+        <file>timg/Wst_Gatling_Quick02^q.png</file>
+        <file>timg/Wst_Gatling_Standard00^q.png</file>
+        <file>timg/Wst_Gatling_Standard01^q.png</file>
+        <file>timg/Wst_Gatling_Standard02^q.png</file>
+        <file>timg/Wst_Roller_BrushMini00^q.png</file>
+        <file>timg/Wst_Roller_BrushMini01^q.png</file>
+        <file>timg/Wst_Roller_BrushMini02^q.png</file>
+        <file>timg/Wst_Roller_BrushNormal00^q.png</file>
+        <file>timg/Wst_Roller_BrushNormal01^q.png</file>
+        <file>timg/Wst_Roller_Compact00^q.png</file>
+        <file>timg/Wst_Roller_Compact01^q.png</file>
+        <file>timg/Wst_Roller_Heavy00^q.png</file>
+        <file>timg/Wst_Roller_Heavy01^q.png</file>
+        <file>timg/Wst_Roller_Heavy02^q.png</file>
+        <file>timg/Wst_Roller_Normal00^q.png</file>
+        <file>timg/Wst_Roller_Normal01^q.png</file>
+        <file>timg/Wst_Roller_Normal02^q.png</file>
+        <file>timg/Wst_Roller_NormalH^q.png</file>
+        <file>timg/Wst_Shot_Blaze00^q.png</file>
+        <file>timg/Wst_Shot_Blaze01^q.png</file>
+        <file>timg/Wst_Shot_Blaze02^q.png</file>
+        <file>timg/Wst_Shot_Expert00^q.png</file>
+        <file>timg/Wst_Shot_Expert01^q.png</file>
+        <file>timg/Wst_Shot_Expert02^q.png</file>
+        <file>timg/Wst_Shot_ExpLight00^q.png</file>
+        <file>timg/Wst_Shot_ExpLight01^q.png</file>
+        <file>timg/Wst_Shot_ExpLightLong00^q.png</file>
+        <file>timg/Wst_Shot_ExpLightLong01^q.png</file>
+        <file>timg/Wst_Shot_ExpLong00^q.png</file>
+        <file>timg/Wst_Shot_ExpLong01^q.png</file>
+        <file>timg/Wst_Shot_ExpLong02^q.png</file>
+        <file>timg/Wst_Shot_ExpMiddle00^q.png</file>
+        <file>timg/Wst_Shot_ExpMiddle01^q.png</file>
+        <file>timg/Wst_Shot_ExpShort00^q.png</file>
+        <file>timg/Wst_Shot_ExpShort01^q.png</file>
+        <file>timg/Wst_Shot_First00^q.png</file>
+        <file>timg/Wst_Shot_First01^q.png</file>
+        <file>timg/Wst_Shot_Gravity00^q.png</file>
+        <file>timg/Wst_Shot_Gravity01^q.png</file>
+        <file>timg/Wst_Shot_Heavy00^q.png</file>
+        <file>timg/Wst_Shot_Heavy01^q.png</file>
+        <file>timg/Wst_Shot_Long00^q.png</file>
+        <file>timg/Wst_Shot_Long01^q.png</file>
+        <file>timg/Wst_Shot_Normal00^q.png</file>
+        <file>timg/Wst_Shot_Normal01^q.png</file>
+        <file>timg/Wst_Shot_Normal02^q.png</file>
+        <file>timg/Wst_Shot_NormalH^q.png</file>
+        <file>timg/Wst_Shot_NormalOct^q.png</file>
+        <file>timg/Wst_Shot_Precision00^q.png</file>
+        <file>timg/Wst_Shot_Precision01^q.png</file>
+        <file>timg/Wst_Shot_QuickLong00^q.png</file>
+        <file>timg/Wst_Shot_QuickLong01^q.png</file>
+        <file>timg/Wst_Shot_QuickMiddle00^q.png</file>
+        <file>timg/Wst_Shot_QuickMiddle01^q.png</file>
+        <file>timg/Wst_Shot_QuickMiddle02^q.png</file>
+        <file>timg/Wst_Shot_Short00^q.png</file>
+        <file>timg/Wst_Shot_Short01^q.png</file>
+        <file>timg/Wst_Shot_Short02^q.png</file>
+        <file>timg/Wst_Shot_TripleMiddle00^q.png</file>
+        <file>timg/Wst_Shot_TripleMiddle01^q.png</file>
+        <file>timg/Wst_Shot_TripleMiddle02^q.png</file>
+        <file>timg/Wst_Shot_TripleQuick00^q.png</file>
+        <file>timg/Wst_Shot_TripleQuick01^q.png</file>
+    </qresource>
+</RCC>

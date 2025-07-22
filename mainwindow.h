@@ -26,6 +26,7 @@ public slots:
     void on_rPageC_clicked();
     void on_lPageC_clicked();
     void on_btnGenerate_clicked();
+    void on_btnTrueRandomise_clicked();
 
 
     void on_sub0_currentIndexChanged();

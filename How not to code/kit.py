@@ -104,4 +104,15 @@ with open("end.txt","w") as end:
         end.write('    lines['+str(n*20+22)+']=wepIndex(ui->sub'+str(n)+'->currentIndex(),ui->spe'+str(n)+'->currentIndex(),ui->dep'+str(n)+'->currentIndex())[1];\n')
         end.write('    lines['+str(n*20+23)+']=wepIndex(ui->sub'+str(n)+'->currentIndex(),ui->spe'+str(n)+'->currentIndex(),ui->dep'+str(n)+'->currentIndex())[2];\n')
 
+with open("rsub.txt","w") as rsub:
+    for o in range(91):
+        rsub.write('ui->sub'+str(o)+'->setCurrentIndex(distribsub(gen));\n')
 
+with open("rspe.txt","w") as rspe:
+    for o in range(91):
+        rspe.write('ui->spe'+str(o)+'->setCurrentIndex(distribspe(gen1));\n')
+
+
+with open("rdep.txt","w") as rdpe:
+    for o in range(91):
+        rdpe.write('ui->dep'+str(o)+'->setCurrentIndex(distribdep(gen2));\n')

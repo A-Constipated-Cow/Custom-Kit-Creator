@@ -3,8 +3,7 @@
 #include <QFile>
 #include <QTextStream>
 #include <QDebug> // For debugging output
-#include <iostream> // For input/output operations (e.g., std::cout, std::cerr)
-#include <fstream>
+#include <random>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -885,6 +884,319 @@ void MainWindow::on_lPageC_clicked()
 
     ui->stackedWidgetC->setCurrentIndex(ui->stackedWidgetC->currentIndex()-1);
 }
+
+void MainWindow::on_btnTrueRandomise_clicked()
+{
+    if (ui->chkSub->isChecked()==1){
+        std::random_device rd;  // a seed source for the random number engine
+        std::mt19937 gen(rd());
+        std::uniform_int_distribution<> distribsub(0, 9);
+        ui->sub0->setCurrentIndex(distribsub(gen));
+        ui->sub1->setCurrentIndex(distribsub(gen));
+        ui->sub2->setCurrentIndex(distribsub(gen));
+        ui->sub3->setCurrentIndex(distribsub(gen));
+        ui->sub4->setCurrentIndex(distribsub(gen));
+        ui->sub5->setCurrentIndex(distribsub(gen));
+        ui->sub6->setCurrentIndex(distribsub(gen));
+        ui->sub7->setCurrentIndex(distribsub(gen));
+        ui->sub8->setCurrentIndex(distribsub(gen));
+        ui->sub9->setCurrentIndex(distribsub(gen));
+        ui->sub10->setCurrentIndex(distribsub(gen));
+        ui->sub11->setCurrentIndex(distribsub(gen));
+        ui->sub12->setCurrentIndex(distribsub(gen));
+        ui->sub13->setCurrentIndex(distribsub(gen));
+        ui->sub14->setCurrentIndex(distribsub(gen));
+        ui->sub15->setCurrentIndex(distribsub(gen));
+        ui->sub16->setCurrentIndex(distribsub(gen));
+        ui->sub17->setCurrentIndex(distribsub(gen));
+        ui->sub18->setCurrentIndex(distribsub(gen));
+        ui->sub19->setCurrentIndex(distribsub(gen));
+        ui->sub20->setCurrentIndex(distribsub(gen));
+        ui->sub21->setCurrentIndex(distribsub(gen));
+        ui->sub22->setCurrentIndex(distribsub(gen));
+        ui->sub23->setCurrentIndex(distribsub(gen));
+        ui->sub24->setCurrentIndex(distribsub(gen));
+        ui->sub25->setCurrentIndex(distribsub(gen));
+        ui->sub26->setCurrentIndex(distribsub(gen));
+        ui->sub27->setCurrentIndex(distribsub(gen));
+        ui->sub28->setCurrentIndex(distribsub(gen));
+        ui->sub29->setCurrentIndex(distribsub(gen));
+        ui->sub30->setCurrentIndex(distribsub(gen));
+        ui->sub31->setCurrentIndex(distribsub(gen));
+        ui->sub32->setCurrentIndex(distribsub(gen));
+        ui->sub33->setCurrentIndex(distribsub(gen));
+        ui->sub34->setCurrentIndex(distribsub(gen));
+        ui->sub35->setCurrentIndex(distribsub(gen));
+        ui->sub36->setCurrentIndex(distribsub(gen));
+        ui->sub37->setCurrentIndex(distribsub(gen));
+        ui->sub38->setCurrentIndex(distribsub(gen));
+        ui->sub39->setCurrentIndex(distribsub(gen));
+        ui->sub40->setCurrentIndex(distribsub(gen));
+        ui->sub41->setCurrentIndex(distribsub(gen));
+        ui->sub42->setCurrentIndex(distribsub(gen));
+        ui->sub43->setCurrentIndex(distribsub(gen));
+        ui->sub44->setCurrentIndex(distribsub(gen));
+        ui->sub45->setCurrentIndex(distribsub(gen));
+        ui->sub46->setCurrentIndex(distribsub(gen));
+        ui->sub47->setCurrentIndex(distribsub(gen));
+        ui->sub48->setCurrentIndex(distribsub(gen));
+        ui->sub49->setCurrentIndex(distribsub(gen));
+        ui->sub50->setCurrentIndex(distribsub(gen));
+        ui->sub51->setCurrentIndex(distribsub(gen));
+        ui->sub52->setCurrentIndex(distribsub(gen));
+        ui->sub53->setCurrentIndex(distribsub(gen));
+        ui->sub54->setCurrentIndex(distribsub(gen));
+        ui->sub55->setCurrentIndex(distribsub(gen));
+        ui->sub56->setCurrentIndex(distribsub(gen));
+        ui->sub57->setCurrentIndex(distribsub(gen));
+        ui->sub58->setCurrentIndex(distribsub(gen));
+        ui->sub59->setCurrentIndex(distribsub(gen));
+        ui->sub60->setCurrentIndex(distribsub(gen));
+        ui->sub61->setCurrentIndex(distribsub(gen));
+        ui->sub62->setCurrentIndex(distribsub(gen));
+        ui->sub63->setCurrentIndex(distribsub(gen));
+        ui->sub64->setCurrentIndex(distribsub(gen));
+        ui->sub65->setCurrentIndex(distribsub(gen));
+        ui->sub66->setCurrentIndex(distribsub(gen));
+        ui->sub67->setCurrentIndex(distribsub(gen));
+        ui->sub68->setCurrentIndex(distribsub(gen));
+        ui->sub69->setCurrentIndex(distribsub(gen));
+        ui->sub70->setCurrentIndex(distribsub(gen));
+        ui->sub71->setCurrentIndex(distribsub(gen));
+        ui->sub72->setCurrentIndex(distribsub(gen));
+        ui->sub73->setCurrentIndex(distribsub(gen));
+        ui->sub74->setCurrentIndex(distribsub(gen));
+        ui->sub75->setCurrentIndex(distribsub(gen));
+        ui->sub76->setCurrentIndex(distribsub(gen));
+        ui->sub77->setCurrentIndex(distribsub(gen));
+        ui->sub78->setCurrentIndex(distribsub(gen));
+        ui->sub79->setCurrentIndex(distribsub(gen));
+        ui->sub80->setCurrentIndex(distribsub(gen));
+        ui->sub81->setCurrentIndex(distribsub(gen));
+        ui->sub82->setCurrentIndex(distribsub(gen));
+        ui->sub83->setCurrentIndex(distribsub(gen));
+        ui->sub84->setCurrentIndex(distribsub(gen));
+        ui->sub85->setCurrentIndex(distribsub(gen));
+        ui->sub86->setCurrentIndex(distribsub(gen));
+        ui->sub87->setCurrentIndex(distribsub(gen));
+        ui->sub88->setCurrentIndex(distribsub(gen));
+        ui->sub89->setCurrentIndex(distribsub(gen));
+        ui->sub90->setCurrentIndex(distribsub(gen));
+
+    }
+
+
+
+    if (ui->chkSpecial->isChecked()==1){
+        int range=0;
+        if (ui->chkNoRainmaker->isChecked()==1){
+            range=6;
+        }else {
+            range=7;
+        }
+
+        std::random_device rd1;  // a seed source for the random number engine
+        std::mt19937 gen1(rd1()); // mersenne_twister_engine seeded with rd()
+        std::uniform_int_distribution<> distribspe(0, range);
+        ui->spe0->setCurrentIndex(distribspe(gen1));
+        ui->spe1->setCurrentIndex(distribspe(gen1));
+        ui->spe2->setCurrentIndex(distribspe(gen1));
+        ui->spe3->setCurrentIndex(distribspe(gen1));
+        ui->spe4->setCurrentIndex(distribspe(gen1));
+        ui->spe5->setCurrentIndex(distribspe(gen1));
+        ui->spe6->setCurrentIndex(distribspe(gen1));
+        ui->spe7->setCurrentIndex(distribspe(gen1));
+        ui->spe8->setCurrentIndex(distribspe(gen1));
+        ui->spe9->setCurrentIndex(distribspe(gen1));
+        ui->spe10->setCurrentIndex(distribspe(gen1));
+        ui->spe11->setCurrentIndex(distribspe(gen1));
+        ui->spe12->setCurrentIndex(distribspe(gen1));
+        ui->spe13->setCurrentIndex(distribspe(gen1));
+        ui->spe14->setCurrentIndex(distribspe(gen1));
+        ui->spe15->setCurrentIndex(distribspe(gen1));
+        ui->spe16->setCurrentIndex(distribspe(gen1));
+        ui->spe17->setCurrentIndex(distribspe(gen1));
+        ui->spe18->setCurrentIndex(distribspe(gen1));
+        ui->spe19->setCurrentIndex(distribspe(gen1));
+        ui->spe20->setCurrentIndex(distribspe(gen1));
+        ui->spe21->setCurrentIndex(distribspe(gen1));
+        ui->spe22->setCurrentIndex(distribspe(gen1));
+        ui->spe23->setCurrentIndex(distribspe(gen1));
+        ui->spe24->setCurrentIndex(distribspe(gen1));
+        ui->spe25->setCurrentIndex(distribspe(gen1));
+        ui->spe26->setCurrentIndex(distribspe(gen1));
+        ui->spe27->setCurrentIndex(distribspe(gen1));
+        ui->spe28->setCurrentIndex(distribspe(gen1));
+        ui->spe29->setCurrentIndex(distribspe(gen1));
+        ui->spe30->setCurrentIndex(distribspe(gen1));
+        ui->spe31->setCurrentIndex(distribspe(gen1));
+        ui->spe32->setCurrentIndex(distribspe(gen1));
+        ui->spe33->setCurrentIndex(distribspe(gen1));
+        ui->spe34->setCurrentIndex(distribspe(gen1));
+        ui->spe35->setCurrentIndex(distribspe(gen1));
+        ui->spe36->setCurrentIndex(distribspe(gen1));
+        ui->spe37->setCurrentIndex(distribspe(gen1));
+        ui->spe38->setCurrentIndex(distribspe(gen1));
+        ui->spe39->setCurrentIndex(distribspe(gen1));
+        ui->spe40->setCurrentIndex(distribspe(gen1));
+        ui->spe41->setCurrentIndex(distribspe(gen1));
+        ui->spe42->setCurrentIndex(distribspe(gen1));
+        ui->spe43->setCurrentIndex(distribspe(gen1));
+        ui->spe44->setCurrentIndex(distribspe(gen1));
+        ui->spe45->setCurrentIndex(distribspe(gen1));
+        ui->spe46->setCurrentIndex(distribspe(gen1));
+        ui->spe47->setCurrentIndex(distribspe(gen1));
+        ui->spe48->setCurrentIndex(distribspe(gen1));
+        ui->spe49->setCurrentIndex(distribspe(gen1));
+        ui->spe50->setCurrentIndex(distribspe(gen1));
+        ui->spe51->setCurrentIndex(distribspe(gen1));
+        ui->spe52->setCurrentIndex(distribspe(gen1));
+        ui->spe53->setCurrentIndex(distribspe(gen1));
+        ui->spe54->setCurrentIndex(distribspe(gen1));
+        ui->spe55->setCurrentIndex(distribspe(gen1));
+        ui->spe56->setCurrentIndex(distribspe(gen1));
+        ui->spe57->setCurrentIndex(distribspe(gen1));
+        ui->spe58->setCurrentIndex(distribspe(gen1));
+        ui->spe59->setCurrentIndex(distribspe(gen1));
+        ui->spe60->setCurrentIndex(distribspe(gen1));
+        ui->spe61->setCurrentIndex(distribspe(gen1));
+        ui->spe62->setCurrentIndex(distribspe(gen1));
+        ui->spe63->setCurrentIndex(distribspe(gen1));
+        ui->spe64->setCurrentIndex(distribspe(gen1));
+        ui->spe65->setCurrentIndex(distribspe(gen1));
+        ui->spe66->setCurrentIndex(distribspe(gen1));
+        ui->spe67->setCurrentIndex(distribspe(gen1));
+        ui->spe68->setCurrentIndex(distribspe(gen1));
+        ui->spe69->setCurrentIndex(distribspe(gen1));
+        ui->spe70->setCurrentIndex(distribspe(gen1));
+        ui->spe71->setCurrentIndex(distribspe(gen1));
+        ui->spe72->setCurrentIndex(distribspe(gen1));
+        ui->spe73->setCurrentIndex(distribspe(gen1));
+        ui->spe74->setCurrentIndex(distribspe(gen1));
+        ui->spe75->setCurrentIndex(distribspe(gen1));
+        ui->spe76->setCurrentIndex(distribspe(gen1));
+        ui->spe77->setCurrentIndex(distribspe(gen1));
+        ui->spe78->setCurrentIndex(distribspe(gen1));
+        ui->spe79->setCurrentIndex(distribspe(gen1));
+        ui->spe80->setCurrentIndex(distribspe(gen1));
+        ui->spe81->setCurrentIndex(distribspe(gen1));
+        ui->spe82->setCurrentIndex(distribspe(gen1));
+        ui->spe83->setCurrentIndex(distribspe(gen1));
+        ui->spe84->setCurrentIndex(distribspe(gen1));
+        ui->spe85->setCurrentIndex(distribspe(gen1));
+        ui->spe86->setCurrentIndex(distribspe(gen1));
+        ui->spe87->setCurrentIndex(distribspe(gen1));
+        ui->spe88->setCurrentIndex(distribspe(gen1));
+        ui->spe89->setCurrentIndex(distribspe(gen1));
+        ui->spe90->setCurrentIndex(distribspe(gen1));
+    }
+    if(ui->chkDepletion->isChecked()==1){
+        std::random_device rd2;  // a seed source for the random number engine
+        std::mt19937 gen2(rd2()); // mersenne_twister_engine seeded with rd()
+        std::uniform_int_distribution<> distribdep(0, 2);
+
+        ui->dep0->setCurrentIndex(distribdep(gen2));
+        ui->dep1->setCurrentIndex(distribdep(gen2));
+        ui->dep2->setCurrentIndex(distribdep(gen2));
+        ui->dep3->setCurrentIndex(distribdep(gen2));
+        ui->dep4->setCurrentIndex(distribdep(gen2));
+        ui->dep5->setCurrentIndex(distribdep(gen2));
+        ui->dep6->setCurrentIndex(distribdep(gen2));
+        ui->dep7->setCurrentIndex(distribdep(gen2));
+        ui->dep8->setCurrentIndex(distribdep(gen2));
+        ui->dep9->setCurrentIndex(distribdep(gen2));
+        ui->dep10->setCurrentIndex(distribdep(gen2));
+        ui->dep11->setCurrentIndex(distribdep(gen2));
+        ui->dep12->setCurrentIndex(distribdep(gen2));
+        ui->dep13->setCurrentIndex(distribdep(gen2));
+        ui->dep14->setCurrentIndex(distribdep(gen2));
+        ui->dep15->setCurrentIndex(distribdep(gen2));
+        ui->dep16->setCurrentIndex(distribdep(gen2));
+        ui->dep17->setCurrentIndex(distribdep(gen2));
+        ui->dep18->setCurrentIndex(distribdep(gen2));
+        ui->dep19->setCurrentIndex(distribdep(gen2));
+        ui->dep20->setCurrentIndex(distribdep(gen2));
+        ui->dep21->setCurrentIndex(distribdep(gen2));
+        ui->dep22->setCurrentIndex(distribdep(gen2));
+        ui->dep23->setCurrentIndex(distribdep(gen2));
+        ui->dep24->setCurrentIndex(distribdep(gen2));
+        ui->dep25->setCurrentIndex(distribdep(gen2));
+        ui->dep26->setCurrentIndex(distribdep(gen2));
+        ui->dep27->setCurrentIndex(distribdep(gen2));
+        ui->dep28->setCurrentIndex(distribdep(gen2));
+        ui->dep29->setCurrentIndex(distribdep(gen2));
+        ui->dep30->setCurrentIndex(distribdep(gen2));
+        ui->dep31->setCurrentIndex(distribdep(gen2));
+        ui->dep32->setCurrentIndex(distribdep(gen2));
+        ui->dep33->setCurrentIndex(distribdep(gen2));
+        ui->dep34->setCurrentIndex(distribdep(gen2));
+        ui->dep35->setCurrentIndex(distribdep(gen2));
+        ui->dep36->setCurrentIndex(distribdep(gen2));
+        ui->dep37->setCurrentIndex(distribdep(gen2));
+        ui->dep38->setCurrentIndex(distribdep(gen2));
+        ui->dep39->setCurrentIndex(distribdep(gen2));
+        ui->dep40->setCurrentIndex(distribdep(gen2));
+        ui->dep41->setCurrentIndex(distribdep(gen2));
+        ui->dep42->setCurrentIndex(distribdep(gen2));
+        ui->dep43->setCurrentIndex(distribdep(gen2));
+        ui->dep44->setCurrentIndex(distribdep(gen2));
+        ui->dep45->setCurrentIndex(distribdep(gen2));
+        ui->dep46->setCurrentIndex(distribdep(gen2));
+        ui->dep47->setCurrentIndex(distribdep(gen2));
+        ui->dep48->setCurrentIndex(distribdep(gen2));
+        ui->dep49->setCurrentIndex(distribdep(gen2));
+        ui->dep50->setCurrentIndex(distribdep(gen2));
+        ui->dep51->setCurrentIndex(distribdep(gen2));
+        ui->dep52->setCurrentIndex(distribdep(gen2));
+        ui->dep53->setCurrentIndex(distribdep(gen2));
+        ui->dep54->setCurrentIndex(distribdep(gen2));
+        ui->dep55->setCurrentIndex(distribdep(gen2));
+        ui->dep56->setCurrentIndex(distribdep(gen2));
+        ui->dep57->setCurrentIndex(distribdep(gen2));
+        ui->dep58->setCurrentIndex(distribdep(gen2));
+        ui->dep59->setCurrentIndex(distribdep(gen2));
+        ui->dep60->setCurrentIndex(distribdep(gen2));
+        ui->dep61->setCurrentIndex(distribdep(gen2));
+        ui->dep62->setCurrentIndex(distribdep(gen2));
+        ui->dep63->setCurrentIndex(distribdep(gen2));
+        ui->dep64->setCurrentIndex(distribdep(gen2));
+        ui->dep65->setCurrentIndex(distribdep(gen2));
+        ui->dep66->setCurrentIndex(distribdep(gen2));
+        ui->dep67->setCurrentIndex(distribdep(gen2));
+        ui->dep68->setCurrentIndex(distribdep(gen2));
+        ui->dep69->setCurrentIndex(distribdep(gen2));
+        ui->dep70->setCurrentIndex(distribdep(gen2));
+        ui->dep71->setCurrentIndex(distribdep(gen2));
+        ui->dep72->setCurrentIndex(distribdep(gen2));
+        ui->dep73->setCurrentIndex(distribdep(gen2));
+        ui->dep74->setCurrentIndex(distribdep(gen2));
+        ui->dep75->setCurrentIndex(distribdep(gen2));
+        ui->dep76->setCurrentIndex(distribdep(gen2));
+        ui->dep77->setCurrentIndex(distribdep(gen2));
+        ui->dep78->setCurrentIndex(distribdep(gen2));
+        ui->dep79->setCurrentIndex(distribdep(gen2));
+        ui->dep80->setCurrentIndex(distribdep(gen2));
+        ui->dep81->setCurrentIndex(distribdep(gen2));
+        ui->dep82->setCurrentIndex(distribdep(gen2));
+        ui->dep83->setCurrentIndex(distribdep(gen2));
+        ui->dep84->setCurrentIndex(distribdep(gen2));
+        ui->dep85->setCurrentIndex(distribdep(gen2));
+        ui->dep86->setCurrentIndex(distribdep(gen2));
+        ui->dep87->setCurrentIndex(distribdep(gen2));
+        ui->dep88->setCurrentIndex(distribdep(gen2));
+        ui->dep89->setCurrentIndex(distribdep(gen2));
+        ui->dep90->setCurrentIndex(distribdep(gen2));
+
+    }
+    if (ui->chkSpammable->isChecked()==1){
+        if (ui->chkOriginal->isChecked()==1){
+
+        }
+    }
+}
+
+
+
 
 void MainWindow::on_sub0_currentIndexChanged()
 {
@@ -2787,7 +3099,7 @@ std::array<std::string,3> wepIndex(int sub,int spe,int dep) {
 void MainWindow::on_btnGenerate_clicked()
 {
     ui->plainTextEdit->clear();
-    ui->tabWeapons->setCurrentIndex(8);
+    ui->tabWeapons->setCurrentIndex(9);
     std::vector<std::string> lines;
     QFile file(":/Template.txt");
 
